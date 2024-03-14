@@ -17,6 +17,14 @@ body {
   background-color: var(--dark);
   min-height: 100vh;
   font-family: "Outfit", sans-serif;
+  padding: 0px 16px;
+  padding-top: 240px;
+}
+
+@media screen and (min-width) {
+  body {
+    padding: 0;
+  }
 }
 
 .container {
@@ -30,7 +38,6 @@ body {
   border-radius: 12px;
   max-width: 544px;
   margin: 0 auto;
-  margin-top: 240px;
 }
 
 .author {
